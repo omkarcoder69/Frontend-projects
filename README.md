@@ -9,6 +9,10 @@
 
 <a href="https://html-css-projects-hcwl-l6eg9p9lq.vercel.app/">Link</a>
 
+3: Card
+
+<a href="https://html-css-projects-kgus.vercel.app/">Link</a>
+
 4: landingpage
 
 <a href="https://html-css-projects-ag93-3erl2u5tj.vercel.app/">Link</a>
