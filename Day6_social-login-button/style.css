@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: var(--background-color);
+}
+:root{
+   --background-color:#D7E1EF;
+   --social-background1:#383838;
+   --social-background3:#FEFEFE;
+   --social-background4:#1879F2;
+}
+img{
+    width: 30px;
+    
+}
+/* 1st button */
+.social-button1,.social-button2,.social-button3,.social-button4{
+    width: 100%;
+    height: 50px;
+    max-width: 310px;
+    min-width: 200px;
+    background-color: var(--social-background1);
+     display: flex;
+     align-items: center;
+     padding: 10px;
+     gap: 12px;
+}
+.social-button1 p{
+    font-size: 22px;
+    color: var(--social-background3);
+    font-weight: 300;
+    color: var(--social-background3);
+    letter-spacing: 0.5px; 
+}
+
+/* 2nd button */
+.social-button2{
+    margin-top: 30px;
+    background: linear-gradient(to right, #f0c14b, #f9c54d);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border: 3px solid #B89439;
+    border-radius: 5px;
+}
+.social-button2 p{
+    font-size: 18px;
+    color: var(--social-background1);
+    font-weight: 600;
+}
+
+/* 3rd button */
+.social-button3{
+    margin-top: 30px;
+    background-color: #ffff;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 5px;
+}
+.social-button3 p{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--social-background1);
+}
+
+/* 4th button */
+.social-button4 {
+    background-color: var(--social-background4);
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 30px;
+}
+.social-button4 p{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--social-background3);
+}
