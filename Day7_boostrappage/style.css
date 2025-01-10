@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    height: 600px;
+}
+.boostrap-box{
+    width: 100%;
+    max-width: 900px;
+    min-width: 500px;
+    height: auto;
+    border: 2px solid gray;
+    padding: 10px;
+}
