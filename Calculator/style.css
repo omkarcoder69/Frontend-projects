@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#calculator{
+
+  width: 25vh;
+  height: auto;
+  border: 1px solid red;
+  padding: 20px;
+  
+}
+
+input,select,button{
+    padding: 5px;
+    margin: 5px 0px;
+    border: 1px solid red;
+}
+
+#result{
+    margin-bottom: 10px;
+}
